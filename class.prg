@@ -32,7 +32,7 @@ SET DELIMITERS TO "[]" // Cria delimitadores para os GETs
 ::altura := 0
 ::peso := 0
 
-   @ 1, 2 SAY "Digite seu nome: " GET ::nome        
+   @ 1, 2 SAY "Digite seu nombre: " GET ::nome        
    @ 2, 2 SAY "Digite seu sobrenome: " GET ::sobrenome            
    @ 3, 2 SAY  "Digite sua data de nascimento: 'dd-mm-aaaa': " GET ::data_nascimento PICTURE "99/99/9999"     
    @ 4, 2 SAY  "Digite sua altura: " GET ::altura PICTURE "9.99"
